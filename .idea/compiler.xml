@@ -7,8 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-provider-payment8001" />
+        <module name="cloudalibaba-consumer-nacos-order83" />
+        <module name="demo" />
+        <module name="cloudalibaba-provider-payment9003" />
+        <module name="cloudalibaba-provider-payment9002" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-provider-payment8001" target="1.8" />
+      <module name="cloudalibaba-provider-payment9001" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloudalibaba-consumer-nacos-order83" options="" />
+      <module name="cloudalibaba-provider-payment9002" options="" />
+      <module name="cloudalibaba-provider-payment9003" options="" />
+      <module name="demo" options="" />
+    </option>
   </component>
 </project>
