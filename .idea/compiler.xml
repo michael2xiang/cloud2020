@@ -8,8 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloudalibaba-consumer-nacos-order83" />
-        <module name="demo" />
         <module name="cloudalibaba-provider-payment9003" />
+        <module name="demo" />
         <module name="cloudalibaba-provider-payment9002" />
       </profile>
     </annotationProcessing>

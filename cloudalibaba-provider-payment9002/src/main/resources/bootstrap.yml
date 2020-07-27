@@ -1,0 +1,24 @@
+server:
+  port: 9002
+
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: nacos-payment-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        #服务注册中心地址
+      config:
+        server-addr: localhost:8848
+        #配置中心地
+        file-extension: yaml
+        #指定yaml格式的配置
+    sentinel:
+      transport:
+        dashboard: localhost:8888
+        port: 8719
+        #默认8719，假如被占用了会自动从8719开始依次+1扫描。直至找到未被占用的端口
